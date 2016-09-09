@@ -1,0 +1,16 @@
+c:\users\kiseksen\documents\visual studio 2015\Projects\InkDemo\InkDemo\bin\Debug\ReverseMap\resources.pri
+c:\users\kiseksen\documents\visual studio 2015\Projects\InkDemo\InkDemo\bin\Debug\AppxManifest.xml
+c:\users\kiseksen\documents\visual studio 2015\Projects\InkDemo\InkDemo\bin\Debug\InkDemo.build.appxrecipe
+c:\users\kiseksen\documents\visual studio 2015\Projects\InkDemo\InkDemo\bld\Debug\ResourceHandlingTask.state
+c:\users\kiseksen\documents\visual studio 2015\Projects\InkDemo\InkDemo\bld\Debug\priconfig.xml
+c:\users\kiseksen\documents\visual studio 2015\Projects\InkDemo\InkDemo\bld\Debug\priconfig.xml.intermediate
+c:\users\kiseksen\documents\visual studio 2015\Projects\InkDemo\InkDemo\bld\Debug\layout.resfiles
+c:\users\kiseksen\documents\visual studio 2015\Projects\InkDemo\InkDemo\bld\Debug\layout.resfiles.intermediate
+c:\users\kiseksen\documents\visual studio 2015\Projects\InkDemo\InkDemo\bld\Debug\resources.resfiles
+c:\users\kiseksen\documents\visual studio 2015\Projects\InkDemo\InkDemo\bld\Debug\resources.resfiles.intermediate
+c:\users\kiseksen\documents\visual studio 2015\Projects\InkDemo\InkDemo\bld\Debug\pri.resfiles
+c:\users\kiseksen\documents\visual studio 2015\Projects\InkDemo\InkDemo\bld\Debug\pri.resfiles.intermediate
+c:\users\kiseksen\documents\visual studio 2015\Projects\InkDemo\InkDemo\bld\Debug\qualifiers.txt
+c:\users\kiseksen\documents\visual studio 2015\Projects\InkDemo\InkDemo\bld\Debug\qualifiers.txt.intermediate
+c:\users\kiseksen\documents\visual studio 2015\Projects\InkDemo\InkDemo\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+c:\users\kiseksen\documents\visual studio 2015\Projects\InkDemo\InkDemo\bld\Debug\ProjectArchitectures.txt
