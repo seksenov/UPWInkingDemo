@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>KHILLSP3</Machine>
+    <WindowsUser>khill</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>2b3c07dd-2564-471e-bb2e-945f7fed2021</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\khill\Desktop\Windows-universal-samples\Samples\Ink\js\bld\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>E72235C91DC875DCA5FCC927A49D256B74090CFC5BE6D28B2073E6A26830D610</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>Microsoft.SDKSamples.Ink.JS_1.0.0.0_neutral__8wekyb3d8bbwe</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>Microsoft.SDKSamples.Ink.JS_8wekyb3d8bbwe!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>Microsoft.SDKSamples.Ink.JS</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\khill\Desktop\Windows-universal-samples\Samples\Ink\js\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-09-08T22:13:41.367</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\khill\Desktop\Windows-universal-samples\Samples\Ink\js\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2016-09-09T00:00:39.734</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khill\Desktop\Windows-universal-samples\Samples\Ink\js\images\Erase.cur">
+      <PackagePath>images\Erase.cur</PackagePath>
+      <Modified>2016-09-08T21:33:59.027</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khill\Desktop\Windows-universal-samples\SharedContent\media\microsoft-sdk.png">
+      <PackagePath>images\microsoft-sdk.png</PackagePath>
+      <Modified>2016-09-08T21:34:46.622</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khill\Desktop\Windows-universal-samples\Samples\Ink\js\images\Select.png">
+      <PackagePath>images\Select.png</PackagePath>
+      <Modified>2016-09-08T21:33:59.028</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khill\Desktop\Windows-universal-samples\SharedContent\media\smalltile-sdk.png">
+      <PackagePath>images\smallTile-sdk.png</PackagePath>
+      <Modified>2016-09-08T21:34:46.627</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khill\Desktop\Windows-universal-samples\SharedContent\media\splash-sdk.png">
+      <PackagePath>images\splash-sdk.png</PackagePath>
+      <Modified>2016-09-08T21:34:46.629</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khill\Desktop\Windows-universal-samples\SharedContent\media\storelogo-sdk.png">
+      <PackagePath>images\storeLogo-sdk.png</PackagePath>
+      <Modified>2016-09-08T21:34:46.634</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khill\Desktop\Windows-universal-samples\SharedContent\media\tile-sdk.png">
+      <PackagePath>images\tile-sdk.png</PackagePath>
+      <Modified>2016-09-08T21:34:46.637</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khill\Desktop\Windows-universal-samples\SharedContent\media\windows-sdk.png">
+      <PackagePath>images\windows-sdk.png</PackagePath>
+      <Modified>2016-09-08T21:34:46.639</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khill\Desktop\Windows-universal-samples\SharedContent\js\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2016-09-08T23:55:20.843</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khill\Desktop\Windows-universal-samples\SharedContent\js\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2016-09-08T23:45:18.642</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khill\Desktop\Windows-universal-samples\Samples\Ink\js\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2016-09-08T22:13:40.602</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

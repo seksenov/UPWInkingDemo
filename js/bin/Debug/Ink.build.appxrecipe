@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>KHILLSP3</Machine>
+    <WindowsUser>khill</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>2b3c07dd-2564-471e-bb2e-945f7fed2021</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\khill\Desktop\Windows-universal-samples\Samples\Ink\js\bld\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\khill\Desktop\Windows-universal-samples\Samples\Ink\js\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\khill\Desktop\Windows-universal-samples\Samples\Ink\js\default.html">
+      <PackagePath>default.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khill\Desktop\Windows-universal-samples\Samples\Ink\js\images\Erase.cur">
+      <PackagePath>images\Erase.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khill\Desktop\Windows-universal-samples\SharedContent\media\microsoft-sdk.png">
+      <PackagePath>images\microsoft-sdk.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khill\Desktop\Windows-universal-samples\Samples\Ink\js\images\Select.png">
+      <PackagePath>images\Select.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khill\Desktop\Windows-universal-samples\SharedContent\media\smalltile-sdk.png">
+      <PackagePath>images\smallTile-sdk.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khill\Desktop\Windows-universal-samples\SharedContent\media\splash-sdk.png">
+      <PackagePath>images\splash-sdk.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khill\Desktop\Windows-universal-samples\SharedContent\media\storelogo-sdk.png">
+      <PackagePath>images\storeLogo-sdk.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khill\Desktop\Windows-universal-samples\SharedContent\media\tile-sdk.png">
+      <PackagePath>images\tile-sdk.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khill\Desktop\Windows-universal-samples\SharedContent\media\windows-sdk.png">
+      <PackagePath>images\windows-sdk.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khill\Desktop\Windows-universal-samples\SharedContent\js\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khill\Desktop\Windows-universal-samples\SharedContent\js\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khill\Desktop\Windows-universal-samples\Samples\Ink\js\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
