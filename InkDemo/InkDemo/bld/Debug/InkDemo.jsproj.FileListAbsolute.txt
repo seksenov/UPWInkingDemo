@@ -14,3 +14,19 @@ c:\users\kiseksen\documents\visual studio 2015\Projects\InkDemo\InkDemo\bld\Debu
 c:\users\kiseksen\documents\visual studio 2015\Projects\InkDemo\InkDemo\bld\Debug\qualifiers.txt.intermediate
 c:\users\kiseksen\documents\visual studio 2015\Projects\InkDemo\InkDemo\bld\Debug\MultipleQualifiersPerDimensionFound.txt
 c:\users\kiseksen\documents\visual studio 2015\Projects\InkDemo\InkDemo\bld\Debug\ProjectArchitectures.txt
+C:\Users\Microsoft Edge\Documents\UPWInkingDemo\InkDemo\InkDemo\bin\Debug\ReverseMap\resources.pri
+C:\Users\Microsoft Edge\Documents\UPWInkingDemo\InkDemo\InkDemo\bin\Debug\AppxManifest.xml
+C:\Users\Microsoft Edge\Documents\UPWInkingDemo\InkDemo\InkDemo\bin\Debug\InkDemo.build.appxrecipe
+C:\Users\Microsoft Edge\Documents\UPWInkingDemo\InkDemo\InkDemo\bld\Debug\ResourceHandlingTask.state
+C:\Users\Microsoft Edge\Documents\UPWInkingDemo\InkDemo\InkDemo\bld\Debug\priconfig.xml
+C:\Users\Microsoft Edge\Documents\UPWInkingDemo\InkDemo\InkDemo\bld\Debug\priconfig.xml.intermediate
+C:\Users\Microsoft Edge\Documents\UPWInkingDemo\InkDemo\InkDemo\bld\Debug\layout.resfiles
+C:\Users\Microsoft Edge\Documents\UPWInkingDemo\InkDemo\InkDemo\bld\Debug\layout.resfiles.intermediate
+C:\Users\Microsoft Edge\Documents\UPWInkingDemo\InkDemo\InkDemo\bld\Debug\resources.resfiles
+C:\Users\Microsoft Edge\Documents\UPWInkingDemo\InkDemo\InkDemo\bld\Debug\resources.resfiles.intermediate
+C:\Users\Microsoft Edge\Documents\UPWInkingDemo\InkDemo\InkDemo\bld\Debug\pri.resfiles
+C:\Users\Microsoft Edge\Documents\UPWInkingDemo\InkDemo\InkDemo\bld\Debug\pri.resfiles.intermediate
+C:\Users\Microsoft Edge\Documents\UPWInkingDemo\InkDemo\InkDemo\bld\Debug\qualifiers.txt
+C:\Users\Microsoft Edge\Documents\UPWInkingDemo\InkDemo\InkDemo\bld\Debug\qualifiers.txt.intermediate
+C:\Users\Microsoft Edge\Documents\UPWInkingDemo\InkDemo\InkDemo\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Microsoft Edge\Documents\UPWInkingDemo\InkDemo\InkDemo\bld\Debug\ProjectArchitectures.txt

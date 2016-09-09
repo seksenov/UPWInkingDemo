@@ -77,6 +77,8 @@
     // Global variable representing the application.
     var app;
 
+    var keys = [];
+
     // Global variables representing the ink interface.
     // The usage of a global variable for drawingAttributes is not completely necessary,
     // just a convenience.  One could always re-fetch the current drawingAttributes
@@ -1100,18 +1102,21 @@
         return document.getElementById(elementId);
     }
 
-    function undo() {
+ function undo() {
         //document.writeln("Undo");
         var isDeleted = false;
         var redraw = false;
+        var lastStroke;
         inkManager.getStrokes().forEach(function (stroke) {
             if (!stroke.drawingAttributes.drawAsHighlighter && !isDeleted) {
-                isDeleted = true;
-                stroke.selected = true;
-                savedStrokes.push(stroke);
-                redraw = true;
+                lastStroke = stroke;
             }
         });
+        if (lastStroke) {
+            lastStroke.selected = true;
+            redraw = true;
+            savedStrokes.push(lastStroke.clone());
+        }
         if (redraw) {
             inkManager.deleteSelected();
             renderAllStrokes();
@@ -1121,6 +1126,38 @@
 
     function redo() {
         //document.writeln("Redo");
+        if(savedStrokes.length != 0) {
+            var newStroke = savedStrokes.pop();
+            inkManager.addStroke(newStroke);
+          
+            renderAllStrokes();
+        }
+    }
+
+    function keysPressed(e) {
+        // store an entry for every key pressed
+        keys[e.keyCode] = true;
+
+        // Ctrl + z
+        if (keys[17] && keys[90]) {
+            // do something
+            undo();
+            // prevent default browser behavior
+            e.preventDefault();
+        }
+
+        // Ctrl + y
+        if (keys[17] && keys[89]) {
+            // do something
+            redo();
+            // prevent default browser behavior
+            e.preventDefault();
+        }
+    }
+
+    function keysReleased(e) {
+        // mark keys that were released
+        keys[e.keyCode] = false;
     }
 
     document.addEventListener('DOMContentLoaded', function () {
@@ -1194,10 +1231,6 @@
         selCanvas.addEventListener("pointerout", handlePointerOut, false);
         selCanvas.addEventListener("MSGestureTap", handleTap, false);
 
-        //Undo redo event listeners
-        document.getElementById("undoButton").addEventListener("click", undo, false);
-        document.getElementById("redoButton").addEventListener("click", redo, false);
-
         var image = new Image();
         image.onload = function () { selContext.strokeStyle = selPattern = selContext.createPattern(image, "repeat"); };
         image.src = "images/select.png";
@@ -1220,6 +1253,9 @@
         } else {
             displayStatus("Verba volant, Scripta manet");
         }
+
+        window.addEventListener("keydown", keysPressed, false);
+        window.addEventListener("keyup", keysReleased, false);
 
         inkMode();
         renderPaper();

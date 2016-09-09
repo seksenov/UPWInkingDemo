@@ -1,67 +1,66 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-KIRIL</Machine>
-    <WindowsUser>kiseksen</WindowsUser>
+    <Machine>DESKTOP-OLQMP84</Machine>
+    <WindowsUser>Microsoft Edge</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>8a7e0794-736b-49c5-bd06-3ce05ad96980</PackageIdentityName>
-    <PackageIdentityPublisher>CN=kiseksen</PackageIdentityPublisher>
-    <IntermediateOutputPath>c:\users\kiseksen\documents\visual studio 2015\Projects\InkDemo\InkDemo\bld\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Microsoft Edge\Documents\UPWInkingDemo\InkDemo\InkDemo\bld\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="c:\users\kiseksen\documents\visual studio 2015\Projects\InkDemo\InkDemo\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Microsoft Edge\Documents\UPWInkingDemo\InkDemo\InkDemo\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="c:\users\kiseksen\documents\visual studio 2015\Projects\InkDemo\InkDemo\default.html">
+    <AppxPackagedFile Include="C:\Users\Microsoft Edge\Documents\UPWInkingDemo\InkDemo\InkDemo\default.html">
       <PackagePath>default.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\kiseksen\documents\visual studio 2015\Projects\InkDemo\InkDemo\images\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Microsoft Edge\Documents\UPWInkingDemo\InkDemo\InkDemo\images\LockScreenLogo.scale-200.png">
       <PackagePath>images\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\kiseksen\documents\visual studio 2015\Projects\InkDemo\InkDemo\images\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Microsoft Edge\Documents\UPWInkingDemo\InkDemo\InkDemo\images\SplashScreen.scale-200.png">
       <PackagePath>images\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\kiseksen\documents\visual studio 2015\Projects\InkDemo\InkDemo\images\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Microsoft Edge\Documents\UPWInkingDemo\InkDemo\InkDemo\images\Square150x150Logo.scale-200.png">
       <PackagePath>images\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\kiseksen\documents\visual studio 2015\Projects\InkDemo\InkDemo\images\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Microsoft Edge\Documents\UPWInkingDemo\InkDemo\InkDemo\images\Square44x44Logo.scale-200.png">
       <PackagePath>images\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\kiseksen\documents\visual studio 2015\Projects\InkDemo\InkDemo\images\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Microsoft Edge\Documents\UPWInkingDemo\InkDemo\InkDemo\images\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\kiseksen\documents\visual studio 2015\Projects\InkDemo\InkDemo\images\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Microsoft Edge\Documents\UPWInkingDemo\InkDemo\InkDemo\images\StoreLogo.png">
       <PackagePath>images\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\kiseksen\documents\visual studio 2015\Projects\InkDemo\InkDemo\images\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Microsoft Edge\Documents\UPWInkingDemo\InkDemo\InkDemo\images\Wide310x150Logo.scale-200.png">
       <PackagePath>images\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\kiseksen\documents\visual studio 2015\Projects\InkDemo\InkDemo\js\default.js">
+    <AppxPackagedFile Include="C:\Users\Microsoft Edge\Documents\UPWInkingDemo\InkDemo\InkDemo\js\default.js">
       <PackagePath>js\default.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\kiseksen\documents\visual studio 2015\Projects\InkDemo\InkDemo\js\main.js">
+    <AppxPackagedFile Include="C:\Users\Microsoft Edge\Documents\UPWInkingDemo\InkDemo\InkDemo\js\main.js">
       <PackagePath>js\main.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\kiseksen\documents\visual studio 2015\Projects\InkDemo\InkDemo\css\default.css">
+    <AppxPackagedFile Include="C:\Users\Microsoft Edge\Documents\UPWInkingDemo\InkDemo\InkDemo\css\default.css">
       <PackagePath>css\default.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\kiseksen\documents\visual studio 2015\Projects\InkDemo\InkDemo\bin\Debug\ReverseMap\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Microsoft Edge\Documents\UPWInkingDemo\InkDemo\InkDemo\bin\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
